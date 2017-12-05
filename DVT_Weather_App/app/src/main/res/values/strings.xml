@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DVT Weather App</string>
+    <string name="title">Weather</string>
+    <string name="exit">Exit</string>
+    <string name="viewWeather">View Weather</string>
+    <string name="help">Help</string>
+    <string name="imgWeather">A Weather Image for the App Main Menu</string>
+    <string name="music">Music</string>
+    <string name="cWeather">Today\'s Weather</string>
+    <string name="imgCurrWeather">A Weather Image for the App Weather</string>
+    <string name="imgRefresh">A Refresh Image</string>
+    <string name="helpDefinition">Welcome to DVTs Weather App.\n\n\nFrom the Main Menu you will be given an option to View Today\'s Weather by pressing the View Weather Button, which will take
+    you to another Screen, where you will be able to see the Current Maximum and Minimum Weather for the Current Day, also you will be able to see Today\'s Date and Time, as well
+    as your Current Location.\n\nFrom the Main Menu, you can also Press on the Help Button, which will bring you to this Screen, where it will give you information on how to use
+    this Application.\n\nOn the Main Menu you can Press the Exit Button to Close the Application.\n\n\nThank You for using this Application, Have a Great Day.</string>
+    <string name="imgDVT">An Image of the Company DVT</string>
+</resources>

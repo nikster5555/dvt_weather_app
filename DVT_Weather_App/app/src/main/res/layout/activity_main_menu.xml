@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context="com.example.atish.dvt_weather_app.MainMenu">
+
+    <TextView
+        android:id="@+id/lblWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="39dp"
+        android:fontFamily="casual"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnViewWeather"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imgCurrWeather"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="casual"
+        android:onClick="btnWeather"
+        android:text="@string/viewWeather"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgCurrWeather"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignStart="@+id/btnViewWeather"
+        android:layout_below="@+id/lblWeather"
+        android:layout_marginTop="29dp"
+        android:contentDescription="@string/imgWeather"
+        android:src="@drawable/weather" />
+
+    <Switch
+        android:id="@+id/swtMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:checked="false"
+        android:fontFamily="casual"
+        android:text="@string/music"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/btnViewWeather"
+        android:layout_marginEnd="34dp"
+        android:fontFamily="casual"
+        android:onClick="btnExit"
+        android:text="@string/exit"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnViewWeather"
+        android:layout_marginStart="40dp"
+        android:fontFamily="casual"
+        android:text="@string/help"
+        android:textStyle="bold"
+        android:onClick="btnHelp"/>
+
+</RelativeLayout>
